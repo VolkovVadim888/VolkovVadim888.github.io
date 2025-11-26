@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    padding: 5px 10px;
+}
+
+a:hover {
+    background: #eee;
+}
+
+.page {
+    display: none;
+    padding: 20px;
+}
+
+.page:target {
+    display: block;
+}
